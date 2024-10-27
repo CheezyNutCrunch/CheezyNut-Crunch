@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f1d0; /* Amarillo pastel */
+    color: #3c3c3c; /* Texto oscuro para contraste */
+}
+
+header {
+    background-color: #d7b899; /* Beige semi oscuro */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3c3c3c;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #fff5b1; /* Fondo amarillo pastel */
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: #d7b899;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #3c3c3c;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.product-gallery {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    width: 100px;
+}
+
+footer {
+    background-color: #d7b899;
+    text-align: center;
+    padding: 10px;
+}
+
+.testimonial {
+    border: 2px solid #d7b899; /* Color beige */
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-style: italic;
+    color: #3c3c3c;
+}
+
+.testimonial strong {
+    display: block;
+    font-weight: bold;
+    color: #3c3c3c;
+    margin-bottom: 5px;
+}
